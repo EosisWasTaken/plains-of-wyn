@@ -1,4 +1,3 @@
-
 import time #pour les pauses
 print("-----------------------------------------")
 print("|Liste des choses a faire pour le projet|")
@@ -56,4 +55,3 @@ time.sleep(1)
 print("25) Pets/familiars")
 time.sleep(1)
 print("26) PvE/PvP content!")
-
