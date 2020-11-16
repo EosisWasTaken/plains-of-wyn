@@ -25,3 +25,12 @@ class player:
 
 P = player("Eosis")
 print(P.faction)
+
+class dice:
+    def __init__(self,sides=6):
+        self.sides = sides
+
+    def roll(self):
+        return random.randint(1,self.sides)
+
+print(dice(20).roll())
